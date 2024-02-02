@@ -4,4 +4,8 @@ Is about loving **Free and open-source software** ([FOSS](https://en.wikipedia.o
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oleksis/perfect-jupyter/blob/main/Perfect.ipynb)
 
+## Screenshots
+
+![Perfect Jupyter Notebook](docs/perfect-jupyter-google-colab.png)
+
 Happy coding! 💖🐍
