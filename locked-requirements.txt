@@ -1,0 +1,57 @@
+ipykernel==6.29.0
+  comm==0.2.1
+    traitlets==5.14.1
+  debugpy==1.8.0
+  ipython==8.21.0
+    colorama==0.4.6
+    decorator==5.1.1
+    jedi==0.19.1
+      parso==0.8.3
+    matplotlib-inline==0.1.6
+      traitlets==5.14.1
+    prompt-toolkit==3.0.43
+      wcwidth==0.2.13
+    Pygments==2.17.2
+    stack-data==0.6.3
+      asttokens==2.4.1
+        six==1.16.0
+      executing==2.0.1
+      pure-eval==0.2.2
+    traitlets==5.14.1
+  jupyter_client==8.6.0
+    jupyter_core==5.7.1
+      platformdirs==4.2.0
+      pywin32==306
+      traitlets==5.14.1
+    python-dateutil==2.8.2
+      six==1.16.0
+    pyzmq==25.1.2
+    tornado==6.4
+    traitlets==5.14.1
+  jupyter_core==5.7.1
+    platformdirs==4.2.0
+    pywin32==306
+    traitlets==5.14.1
+  matplotlib-inline==0.1.6
+    traitlets==5.14.1
+  nest-asyncio==1.6.0
+  packaging==23.2
+  psutil==5.9.8
+  pyzmq==25.1.2
+  tornado==6.4
+  traitlets==5.14.1
+pip==23.3.2
+pipdeptree==2.13.2
+setuptools==65.5.0
+yt-dlp==2023.12.30
+  Brotli==1.1.0
+  certifi==2024.2.2
+  mutagen==1.47.0
+  pycryptodomex==3.20.0
+  requests==2.31.0
+    certifi==2024.2.2
+    charset-normalizer==3.3.2
+    idna==3.6
+    urllib3==2.2.0
+  urllib3==2.2.0
+  websockets==12.0
