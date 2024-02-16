@@ -168,3 +168,4 @@ cython_debug/
 *.m4a
 *.ogg
 *.aac
+*.wav
