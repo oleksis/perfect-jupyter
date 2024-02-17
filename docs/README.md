@@ -21,7 +21,7 @@ This will show commits that added or removed the specified phrase. Remember to r
 ➜ py -m pip install pipdeptree
 ➜ pip install uv
 ➜ pipdeptree 
-➜ pipdeptree --exclude pip,pipdeptree,setuptools,wheel --warn silence | Select-String -Pattern '^\w+'  > requirement.txt
+➜ pipdeptree --exclude pip,pipdeptree,setuptools,wheel,uv --warn silence | Select-String -Pattern '^\w+'  > requirement.txt
 ➜ pipdeptree -f --warn silence > locked-requirements.txt
 
 ```
