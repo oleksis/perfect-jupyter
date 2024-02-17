@@ -13,3 +13,15 @@ git log -S 'Your Phrase Here'
 ```
 
 This will show commits that added or removed the specified phrase. Remember to replace `'Your Phrase Here'` with the phrase you're looking for.
+
+## Development
+
+```pwsh
+➜ .\.venv\Scripts\Activate.ps1
+➜ py -m pip install pipdeptree
+➜ pip install uv
+➜ pipdeptree 
+➜ pipdeptree --exclude pip,pipdeptree,setuptools,wheel --warn silence | Select-String -Pattern '^\w+'  > requirement.txt
+➜ pipdeptree -f --warn silence > locked-requirements.txt
+
+```
