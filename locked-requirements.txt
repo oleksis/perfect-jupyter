@@ -1,10 +1,10 @@
 fqdn==1.5.1
 ipywidgets==7.7.1
-  ipykernel==6.29.0
+  ipykernel==6.29.2
     comm==0.2.1
       traitlets==5.14.1
     debugpy==1.8.1
-    ipython==8.21.0
+    ipython==8.22.1
       colorama==0.4.6
       decorator==5.1.1
       jedi==0.19.1
@@ -42,7 +42,7 @@ ipywidgets==7.7.1
     pyzmq==25.1.2
     tornado==6.4
     traitlets==5.14.1
-  ipython==8.21.0
+  ipython==8.22.1
     colorama==0.4.6
     decorator==5.1.1
     jedi==0.19.1
@@ -59,12 +59,12 @@ ipywidgets==7.7.1
       pure-eval==0.2.2
     traitlets==5.14.1
   ipython-genutils==0.2.0
-  jupyterlab-widgets==3.0.9
+  jupyterlab_widgets==3.0.10
   traitlets==5.14.1
   widgetsnbextension==3.6.6
-    notebook==7.0.7
+    notebook==7.1.0
       jupyter_server==2.12.5
-        anyio==4.2.0
+        anyio==4.3.0
           idna==3.6
           sniffio==1.3.0
         argon2-cffi==23.1.0
@@ -93,16 +93,16 @@ ipywidgets==7.7.1
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           python-json-logger==2.0.7
           PyYAML==6.0.1
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
+            rpds-py==0.18.0
           rfc3339-validator==0.1.4
             six==1.16.0
           rfc3986-validator==0.1.1
@@ -112,7 +112,7 @@ ipywidgets==7.7.1
           terminado==0.18.0
             pywinpty==2.0.12
             tornado==6.4
-        nbconvert==7.14.2
+        nbconvert==7.16.1
           beautifulsoup4==4.12.3
             soupsieve==2.5
           bleach==6.1.0
@@ -150,11 +150,11 @@ ipywidgets==7.7.1
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -168,11 +168,11 @@ ipywidgets==7.7.1
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -191,11 +191,11 @@ ipywidgets==7.7.1
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_core==5.7.1
             platformdirs==4.2.0
             pywin32==306
@@ -203,7 +203,7 @@ ipywidgets==7.7.1
           traitlets==5.14.1
         overrides==7.7.0
         packaging==23.2
-        prometheus-client==0.19.0
+        prometheus_client==0.20.0
         pywinpty==2.0.12
         pyzmq==25.1.2
         Send2Trash==1.8.2
@@ -213,13 +213,23 @@ ipywidgets==7.7.1
         tornado==6.4
         traitlets==5.14.1
         websocket-client==1.7.0
-      jupyterlab==4.0.12
+      jupyterlab==4.1.2
         async-lru==2.0.4
-        ipykernel==6.29.0
+        httpx==0.27.0
+          anyio==4.3.0
+            idna==3.6
+            sniffio==1.3.0
+          certifi==2024.2.2
+          httpcore==1.0.4
+            certifi==2024.2.2
+            h11==0.14.0
+          idna==3.6
+          sniffio==1.3.0
+        ipykernel==6.29.2
           comm==0.2.1
             traitlets==5.14.1
           debugpy==1.8.1
-          ipython==8.21.0
+          ipython==8.22.1
             colorama==0.4.6
             decorator==5.1.1
             jedi==0.19.1
@@ -265,7 +275,7 @@ ipywidgets==7.7.1
           traitlets==5.14.1
         jupyter-lsp==2.2.2
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -294,16 +304,16 @@ ipywidgets==7.7.1
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -313,7 +323,7 @@ ipywidgets==7.7.1
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -351,11 +361,11 @@ ipywidgets==7.7.1
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -369,11 +379,11 @@ ipywidgets==7.7.1
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -392,11 +402,11 @@ ipywidgets==7.7.1
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -404,7 +414,7 @@ ipywidgets==7.7.1
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -415,7 +425,7 @@ ipywidgets==7.7.1
             traitlets==5.14.1
             websocket-client==1.7.0
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -444,16 +454,16 @@ ipywidgets==7.7.1
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -463,7 +473,7 @@ ipywidgets==7.7.1
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -501,11 +511,11 @@ ipywidgets==7.7.1
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -519,11 +529,11 @@ ipywidgets==7.7.1
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -542,11 +552,11 @@ ipywidgets==7.7.1
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -554,7 +564,7 @@ ipywidgets==7.7.1
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -564,23 +574,23 @@ ipywidgets==7.7.1
           tornado==6.4
           traitlets==5.14.1
           websocket-client==1.7.0
-        jupyterlab_server==2.25.2
+        jupyterlab_server==2.25.3
           Babel==2.14.0
           Jinja2==3.1.3
             MarkupSafe==2.1.5
-          json5==0.9.14
+          json5==0.9.17
           jsonschema==4.21.1
             attrs==23.2.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -609,16 +619,16 @@ ipywidgets==7.7.1
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -628,7 +638,7 @@ ipywidgets==7.7.1
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -666,11 +676,11 @@ ipywidgets==7.7.1
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -684,11 +694,11 @@ ipywidgets==7.7.1
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -707,11 +717,11 @@ ipywidgets==7.7.1
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -719,7 +729,7 @@ ipywidgets==7.7.1
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -734,10 +744,10 @@ ipywidgets==7.7.1
             certifi==2024.2.2
             charset-normalizer==3.3.2
             idna==3.6
-            urllib3==2.2.0
-        notebook_shim==0.2.3
+            urllib3==2.2.1
+        notebook_shim==0.2.4
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -766,16 +776,16 @@ ipywidgets==7.7.1
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -785,7 +795,7 @@ ipywidgets==7.7.1
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -823,11 +833,11 @@ ipywidgets==7.7.1
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -841,11 +851,11 @@ ipywidgets==7.7.1
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -864,11 +874,11 @@ ipywidgets==7.7.1
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -876,7 +886,7 @@ ipywidgets==7.7.1
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -889,23 +899,23 @@ ipywidgets==7.7.1
         packaging==23.2
         tornado==6.4
         traitlets==5.14.1
-      jupyterlab_server==2.25.2
+      jupyterlab_server==2.25.3
         Babel==2.14.0
         Jinja2==3.1.3
           MarkupSafe==2.1.5
-        json5==0.9.14
+        json5==0.9.17
         jsonschema==4.21.1
           attrs==23.2.0
           jsonschema-specifications==2023.12.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
-          rpds-py==0.17.1
+            rpds-py==0.18.0
+          rpds-py==0.18.0
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -934,16 +944,16 @@ ipywidgets==7.7.1
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -953,7 +963,7 @@ ipywidgets==7.7.1
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -991,11 +1001,11 @@ ipywidgets==7.7.1
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -1009,11 +1019,11 @@ ipywidgets==7.7.1
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -1032,11 +1042,11 @@ ipywidgets==7.7.1
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -1044,7 +1054,7 @@ ipywidgets==7.7.1
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -1059,10 +1069,10 @@ ipywidgets==7.7.1
           certifi==2024.2.2
           charset-normalizer==3.3.2
           idna==3.6
-          urllib3==2.2.0
-      notebook_shim==0.2.3
+          urllib3==2.2.1
+      notebook_shim==0.2.4
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -1091,16 +1101,16 @@ ipywidgets==7.7.1
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -1110,7 +1120,7 @@ ipywidgets==7.7.1
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -1148,11 +1158,11 @@ ipywidgets==7.7.1
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -1166,11 +1176,11 @@ ipywidgets==7.7.1
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -1189,11 +1199,11 @@ ipywidgets==7.7.1
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -1201,7 +1211,7 @@ ipywidgets==7.7.1
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -1218,16 +1228,16 @@ isoduration==20.11.0
       six==1.16.0
     types-python-dateutil==2.8.19.20240106
 jsonpointer==2.4
-jupyter_contrib_nbextensions==0.7.0
+jupyter-contrib-nbextensions==0.7.0
   ipython-genutils==0.2.0
-  jupyter_contrib_core==0.4.2
+  jupyter-contrib-core==0.4.2
     jupyter_core==5.7.1
       platformdirs==4.2.0
       pywin32==306
       traitlets==5.14.1
-    notebook==7.0.7
+    notebook==7.1.0
       jupyter_server==2.12.5
-        anyio==4.2.0
+        anyio==4.3.0
           idna==3.6
           sniffio==1.3.0
         argon2-cffi==23.1.0
@@ -1256,16 +1266,16 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           python-json-logger==2.0.7
           PyYAML==6.0.1
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
+            rpds-py==0.18.0
           rfc3339-validator==0.1.4
             six==1.16.0
           rfc3986-validator==0.1.1
@@ -1275,7 +1285,7 @@ jupyter_contrib_nbextensions==0.7.0
           terminado==0.18.0
             pywinpty==2.0.12
             tornado==6.4
-        nbconvert==7.14.2
+        nbconvert==7.16.1
           beautifulsoup4==4.12.3
             soupsieve==2.5
           bleach==6.1.0
@@ -1313,11 +1323,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -1331,11 +1341,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -1354,11 +1364,11 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_core==5.7.1
             platformdirs==4.2.0
             pywin32==306
@@ -1366,7 +1376,7 @@ jupyter_contrib_nbextensions==0.7.0
           traitlets==5.14.1
         overrides==7.7.0
         packaging==23.2
-        prometheus-client==0.19.0
+        prometheus_client==0.20.0
         pywinpty==2.0.12
         pyzmq==25.1.2
         Send2Trash==1.8.2
@@ -1376,13 +1386,23 @@ jupyter_contrib_nbextensions==0.7.0
         tornado==6.4
         traitlets==5.14.1
         websocket-client==1.7.0
-      jupyterlab==4.0.12
+      jupyterlab==4.1.2
         async-lru==2.0.4
-        ipykernel==6.29.0
+        httpx==0.27.0
+          anyio==4.3.0
+            idna==3.6
+            sniffio==1.3.0
+          certifi==2024.2.2
+          httpcore==1.0.4
+            certifi==2024.2.2
+            h11==0.14.0
+          idna==3.6
+          sniffio==1.3.0
+        ipykernel==6.29.2
           comm==0.2.1
             traitlets==5.14.1
           debugpy==1.8.1
-          ipython==8.21.0
+          ipython==8.22.1
             colorama==0.4.6
             decorator==5.1.1
             jedi==0.19.1
@@ -1428,7 +1448,7 @@ jupyter_contrib_nbextensions==0.7.0
           traitlets==5.14.1
         jupyter-lsp==2.2.2
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -1457,16 +1477,16 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -1476,7 +1496,7 @@ jupyter_contrib_nbextensions==0.7.0
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -1514,11 +1534,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -1532,11 +1552,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -1555,11 +1575,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -1567,7 +1587,7 @@ jupyter_contrib_nbextensions==0.7.0
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -1578,7 +1598,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
             websocket-client==1.7.0
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -1607,16 +1627,16 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -1626,7 +1646,7 @@ jupyter_contrib_nbextensions==0.7.0
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -1664,11 +1684,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -1682,11 +1702,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -1705,11 +1725,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -1717,7 +1737,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -1727,23 +1747,23 @@ jupyter_contrib_nbextensions==0.7.0
           tornado==6.4
           traitlets==5.14.1
           websocket-client==1.7.0
-        jupyterlab_server==2.25.2
+        jupyterlab_server==2.25.3
           Babel==2.14.0
           Jinja2==3.1.3
             MarkupSafe==2.1.5
-          json5==0.9.14
+          json5==0.9.17
           jsonschema==4.21.1
             attrs==23.2.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -1772,16 +1792,16 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -1791,7 +1811,7 @@ jupyter_contrib_nbextensions==0.7.0
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -1829,11 +1849,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -1847,11 +1867,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -1870,11 +1890,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -1882,7 +1902,7 @@ jupyter_contrib_nbextensions==0.7.0
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -1897,10 +1917,10 @@ jupyter_contrib_nbextensions==0.7.0
             certifi==2024.2.2
             charset-normalizer==3.3.2
             idna==3.6
-            urllib3==2.2.0
-        notebook_shim==0.2.3
+            urllib3==2.2.1
+        notebook_shim==0.2.4
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -1929,16 +1949,16 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -1948,7 +1968,7 @@ jupyter_contrib_nbextensions==0.7.0
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -1986,11 +2006,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -2004,11 +2024,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -2027,11 +2047,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -2039,7 +2059,7 @@ jupyter_contrib_nbextensions==0.7.0
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -2052,23 +2072,23 @@ jupyter_contrib_nbextensions==0.7.0
         packaging==23.2
         tornado==6.4
         traitlets==5.14.1
-      jupyterlab_server==2.25.2
+      jupyterlab_server==2.25.3
         Babel==2.14.0
         Jinja2==3.1.3
           MarkupSafe==2.1.5
-        json5==0.9.14
+        json5==0.9.17
         jsonschema==4.21.1
           attrs==23.2.0
           jsonschema-specifications==2023.12.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
-          rpds-py==0.17.1
+            rpds-py==0.18.0
+          rpds-py==0.18.0
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -2097,16 +2117,16 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -2116,7 +2136,7 @@ jupyter_contrib_nbextensions==0.7.0
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -2154,11 +2174,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -2172,11 +2192,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -2195,11 +2215,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -2207,7 +2227,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -2222,10 +2242,10 @@ jupyter_contrib_nbextensions==0.7.0
           certifi==2024.2.2
           charset-normalizer==3.3.2
           idna==3.6
-          urllib3==2.2.0
-      notebook_shim==0.2.3
+          urllib3==2.2.1
+      notebook_shim==0.2.4
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -2254,16 +2274,16 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -2273,7 +2293,7 @@ jupyter_contrib_nbextensions==0.7.0
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -2311,11 +2331,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -2329,11 +2349,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -2352,11 +2372,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -2364,7 +2384,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -2384,14 +2404,14 @@ jupyter_contrib_nbextensions==0.7.0
     traitlets==5.14.1
   jupyter-highlight-selected-word==0.2.0
   jupyter-nbextensions-configurator==0.6.3
-    jupyter_contrib_core==0.4.2
+    jupyter-contrib-core==0.4.2
       jupyter_core==5.7.1
         platformdirs==4.2.0
         pywin32==306
         traitlets==5.14.1
-      notebook==7.0.7
+      notebook==7.1.0
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -2420,16 +2440,16 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -2439,7 +2459,7 @@ jupyter_contrib_nbextensions==0.7.0
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -2477,11 +2497,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -2495,11 +2515,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -2518,11 +2538,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -2530,7 +2550,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -2540,13 +2560,23 @@ jupyter_contrib_nbextensions==0.7.0
           tornado==6.4
           traitlets==5.14.1
           websocket-client==1.7.0
-        jupyterlab==4.0.12
+        jupyterlab==4.1.2
           async-lru==2.0.4
-          ipykernel==6.29.0
+          httpx==0.27.0
+            anyio==4.3.0
+              idna==3.6
+              sniffio==1.3.0
+            certifi==2024.2.2
+            httpcore==1.0.4
+              certifi==2024.2.2
+              h11==0.14.0
+            idna==3.6
+            sniffio==1.3.0
+          ipykernel==6.29.2
             comm==0.2.1
               traitlets==5.14.1
             debugpy==1.8.1
-            ipython==8.21.0
+            ipython==8.22.1
               colorama==0.4.6
               decorator==5.1.1
               jedi==0.19.1
@@ -2592,7 +2622,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           jupyter-lsp==2.2.2
             jupyter_server==2.12.5
-              anyio==4.2.0
+              anyio==4.3.0
                 idna==3.6
                 sniffio==1.3.0
               argon2-cffi==23.1.0
@@ -2621,16 +2651,16 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 python-json-logger==2.0.7
                 PyYAML==6.0.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
                 rfc3339-validator==0.1.4
                   six==1.16.0
                 rfc3986-validator==0.1.1
@@ -2640,7 +2670,7 @@ jupyter_contrib_nbextensions==0.7.0
                 terminado==0.18.0
                   pywinpty==2.0.12
                   tornado==6.4
-              nbconvert==7.14.2
+              nbconvert==7.16.1
                 beautifulsoup4==4.12.3
                   soupsieve==2.5
                 bleach==6.1.0
@@ -2678,11 +2708,11 @@ jupyter_contrib_nbextensions==0.7.0
                       jsonschema-specifications==2023.12.1
                         referencing==0.33.0
                           attrs==23.2.0
-                          rpds-py==0.17.1
+                          rpds-py==0.18.0
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
-                      rpds-py==0.17.1
+                        rpds-py==0.18.0
+                      rpds-py==0.18.0
                     jupyter_core==5.7.1
                       platformdirs==4.2.0
                       pywin32==306
@@ -2696,11 +2726,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -2719,11 +2749,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -2731,7 +2761,7 @@ jupyter_contrib_nbextensions==0.7.0
                 traitlets==5.14.1
               overrides==7.7.0
               packaging==23.2
-              prometheus-client==0.19.0
+              prometheus_client==0.20.0
               pywinpty==2.0.12
               pyzmq==25.1.2
               Send2Trash==1.8.2
@@ -2742,7 +2772,7 @@ jupyter_contrib_nbextensions==0.7.0
               traitlets==5.14.1
               websocket-client==1.7.0
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -2771,16 +2801,16 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -2790,7 +2820,7 @@ jupyter_contrib_nbextensions==0.7.0
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -2828,11 +2858,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -2846,11 +2876,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -2869,11 +2899,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -2881,7 +2911,7 @@ jupyter_contrib_nbextensions==0.7.0
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -2891,23 +2921,23 @@ jupyter_contrib_nbextensions==0.7.0
             tornado==6.4
             traitlets==5.14.1
             websocket-client==1.7.0
-          jupyterlab_server==2.25.2
+          jupyterlab_server==2.25.3
             Babel==2.14.0
             Jinja2==3.1.3
               MarkupSafe==2.1.5
-            json5==0.9.14
+            json5==0.9.17
             jsonschema==4.21.1
               attrs==23.2.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_server==2.12.5
-              anyio==4.2.0
+              anyio==4.3.0
                 idna==3.6
                 sniffio==1.3.0
               argon2-cffi==23.1.0
@@ -2936,16 +2966,16 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 python-json-logger==2.0.7
                 PyYAML==6.0.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
                 rfc3339-validator==0.1.4
                   six==1.16.0
                 rfc3986-validator==0.1.1
@@ -2955,7 +2985,7 @@ jupyter_contrib_nbextensions==0.7.0
                 terminado==0.18.0
                   pywinpty==2.0.12
                   tornado==6.4
-              nbconvert==7.14.2
+              nbconvert==7.16.1
                 beautifulsoup4==4.12.3
                   soupsieve==2.5
                 bleach==6.1.0
@@ -2993,11 +3023,11 @@ jupyter_contrib_nbextensions==0.7.0
                       jsonschema-specifications==2023.12.1
                         referencing==0.33.0
                           attrs==23.2.0
-                          rpds-py==0.17.1
+                          rpds-py==0.18.0
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
-                      rpds-py==0.17.1
+                        rpds-py==0.18.0
+                      rpds-py==0.18.0
                     jupyter_core==5.7.1
                       platformdirs==4.2.0
                       pywin32==306
@@ -3011,11 +3041,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -3034,11 +3064,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -3046,7 +3076,7 @@ jupyter_contrib_nbextensions==0.7.0
                 traitlets==5.14.1
               overrides==7.7.0
               packaging==23.2
-              prometheus-client==0.19.0
+              prometheus_client==0.20.0
               pywinpty==2.0.12
               pyzmq==25.1.2
               Send2Trash==1.8.2
@@ -3061,10 +3091,10 @@ jupyter_contrib_nbextensions==0.7.0
               certifi==2024.2.2
               charset-normalizer==3.3.2
               idna==3.6
-              urllib3==2.2.0
-          notebook_shim==0.2.3
+              urllib3==2.2.1
+          notebook_shim==0.2.4
             jupyter_server==2.12.5
-              anyio==4.2.0
+              anyio==4.3.0
                 idna==3.6
                 sniffio==1.3.0
               argon2-cffi==23.1.0
@@ -3093,16 +3123,16 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 python-json-logger==2.0.7
                 PyYAML==6.0.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
                 rfc3339-validator==0.1.4
                   six==1.16.0
                 rfc3986-validator==0.1.1
@@ -3112,7 +3142,7 @@ jupyter_contrib_nbextensions==0.7.0
                 terminado==0.18.0
                   pywinpty==2.0.12
                   tornado==6.4
-              nbconvert==7.14.2
+              nbconvert==7.16.1
                 beautifulsoup4==4.12.3
                   soupsieve==2.5
                 bleach==6.1.0
@@ -3150,11 +3180,11 @@ jupyter_contrib_nbextensions==0.7.0
                       jsonschema-specifications==2023.12.1
                         referencing==0.33.0
                           attrs==23.2.0
-                          rpds-py==0.17.1
+                          rpds-py==0.18.0
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
-                      rpds-py==0.17.1
+                        rpds-py==0.18.0
+                      rpds-py==0.18.0
                     jupyter_core==5.7.1
                       platformdirs==4.2.0
                       pywin32==306
@@ -3168,11 +3198,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -3191,11 +3221,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -3203,7 +3233,7 @@ jupyter_contrib_nbextensions==0.7.0
                 traitlets==5.14.1
               overrides==7.7.0
               packaging==23.2
-              prometheus-client==0.19.0
+              prometheus_client==0.20.0
               pywinpty==2.0.12
               pyzmq==25.1.2
               Send2Trash==1.8.2
@@ -3216,23 +3246,23 @@ jupyter_contrib_nbextensions==0.7.0
           packaging==23.2
           tornado==6.4
           traitlets==5.14.1
-        jupyterlab_server==2.25.2
+        jupyterlab_server==2.25.3
           Babel==2.14.0
           Jinja2==3.1.3
             MarkupSafe==2.1.5
-          json5==0.9.14
+          json5==0.9.17
           jsonschema==4.21.1
             attrs==23.2.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -3261,16 +3291,16 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -3280,7 +3310,7 @@ jupyter_contrib_nbextensions==0.7.0
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -3318,11 +3348,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -3336,11 +3366,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -3359,11 +3389,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -3371,7 +3401,7 @@ jupyter_contrib_nbextensions==0.7.0
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -3386,10 +3416,10 @@ jupyter_contrib_nbextensions==0.7.0
             certifi==2024.2.2
             charset-normalizer==3.3.2
             idna==3.6
-            urllib3==2.2.0
-        notebook_shim==0.2.3
+            urllib3==2.2.1
+        notebook_shim==0.2.4
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -3418,16 +3448,16 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -3437,7 +3467,7 @@ jupyter_contrib_nbextensions==0.7.0
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -3475,11 +3505,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -3493,11 +3523,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -3516,11 +3546,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -3528,7 +3558,7 @@ jupyter_contrib_nbextensions==0.7.0
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -3546,9 +3576,9 @@ jupyter_contrib_nbextensions==0.7.0
       platformdirs==4.2.0
       pywin32==306
       traitlets==5.14.1
-    notebook==7.0.7
+    notebook==7.1.0
       jupyter_server==2.12.5
-        anyio==4.2.0
+        anyio==4.3.0
           idna==3.6
           sniffio==1.3.0
         argon2-cffi==23.1.0
@@ -3577,16 +3607,16 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           python-json-logger==2.0.7
           PyYAML==6.0.1
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
+            rpds-py==0.18.0
           rfc3339-validator==0.1.4
             six==1.16.0
           rfc3986-validator==0.1.1
@@ -3596,7 +3626,7 @@ jupyter_contrib_nbextensions==0.7.0
           terminado==0.18.0
             pywinpty==2.0.12
             tornado==6.4
-        nbconvert==7.14.2
+        nbconvert==7.16.1
           beautifulsoup4==4.12.3
             soupsieve==2.5
           bleach==6.1.0
@@ -3634,11 +3664,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -3652,11 +3682,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -3675,11 +3705,11 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_core==5.7.1
             platformdirs==4.2.0
             pywin32==306
@@ -3687,7 +3717,7 @@ jupyter_contrib_nbextensions==0.7.0
           traitlets==5.14.1
         overrides==7.7.0
         packaging==23.2
-        prometheus-client==0.19.0
+        prometheus_client==0.20.0
         pywinpty==2.0.12
         pyzmq==25.1.2
         Send2Trash==1.8.2
@@ -3697,13 +3727,23 @@ jupyter_contrib_nbextensions==0.7.0
         tornado==6.4
         traitlets==5.14.1
         websocket-client==1.7.0
-      jupyterlab==4.0.12
+      jupyterlab==4.1.2
         async-lru==2.0.4
-        ipykernel==6.29.0
+        httpx==0.27.0
+          anyio==4.3.0
+            idna==3.6
+            sniffio==1.3.0
+          certifi==2024.2.2
+          httpcore==1.0.4
+            certifi==2024.2.2
+            h11==0.14.0
+          idna==3.6
+          sniffio==1.3.0
+        ipykernel==6.29.2
           comm==0.2.1
             traitlets==5.14.1
           debugpy==1.8.1
-          ipython==8.21.0
+          ipython==8.22.1
             colorama==0.4.6
             decorator==5.1.1
             jedi==0.19.1
@@ -3749,7 +3789,7 @@ jupyter_contrib_nbextensions==0.7.0
           traitlets==5.14.1
         jupyter-lsp==2.2.2
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -3778,16 +3818,16 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -3797,7 +3837,7 @@ jupyter_contrib_nbextensions==0.7.0
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -3835,11 +3875,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -3853,11 +3893,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -3876,11 +3916,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -3888,7 +3928,7 @@ jupyter_contrib_nbextensions==0.7.0
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -3899,7 +3939,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
             websocket-client==1.7.0
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -3928,16 +3968,16 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -3947,7 +3987,7 @@ jupyter_contrib_nbextensions==0.7.0
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -3985,11 +4025,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -4003,11 +4043,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -4026,11 +4066,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -4038,7 +4078,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -4048,23 +4088,23 @@ jupyter_contrib_nbextensions==0.7.0
           tornado==6.4
           traitlets==5.14.1
           websocket-client==1.7.0
-        jupyterlab_server==2.25.2
+        jupyterlab_server==2.25.3
           Babel==2.14.0
           Jinja2==3.1.3
             MarkupSafe==2.1.5
-          json5==0.9.14
+          json5==0.9.17
           jsonschema==4.21.1
             attrs==23.2.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -4093,16 +4133,16 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -4112,7 +4152,7 @@ jupyter_contrib_nbextensions==0.7.0
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -4150,11 +4190,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -4168,11 +4208,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -4191,11 +4231,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -4203,7 +4243,7 @@ jupyter_contrib_nbextensions==0.7.0
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -4218,10 +4258,10 @@ jupyter_contrib_nbextensions==0.7.0
             certifi==2024.2.2
             charset-normalizer==3.3.2
             idna==3.6
-            urllib3==2.2.0
-        notebook_shim==0.2.3
+            urllib3==2.2.1
+        notebook_shim==0.2.4
           jupyter_server==2.12.5
-            anyio==4.2.0
+            anyio==4.3.0
               idna==3.6
               sniffio==1.3.0
             argon2-cffi==23.1.0
@@ -4250,16 +4290,16 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               python-json-logger==2.0.7
               PyYAML==6.0.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
               rfc3339-validator==0.1.4
                 six==1.16.0
               rfc3986-validator==0.1.1
@@ -4269,7 +4309,7 @@ jupyter_contrib_nbextensions==0.7.0
               terminado==0.18.0
                 pywinpty==2.0.12
                 tornado==6.4
-            nbconvert==7.14.2
+            nbconvert==7.16.1
               beautifulsoup4==4.12.3
                 soupsieve==2.5
               bleach==6.1.0
@@ -4307,11 +4347,11 @@ jupyter_contrib_nbextensions==0.7.0
                     jsonschema-specifications==2023.12.1
                       referencing==0.33.0
                         attrs==23.2.0
-                        rpds-py==0.17.1
+                        rpds-py==0.18.0
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
-                    rpds-py==0.17.1
+                      rpds-py==0.18.0
+                    rpds-py==0.18.0
                   jupyter_core==5.7.1
                     platformdirs==4.2.0
                     pywin32==306
@@ -4325,11 +4365,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -4348,11 +4388,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -4360,7 +4400,7 @@ jupyter_contrib_nbextensions==0.7.0
               traitlets==5.14.1
             overrides==7.7.0
             packaging==23.2
-            prometheus-client==0.19.0
+            prometheus_client==0.20.0
             pywinpty==2.0.12
             pyzmq==25.1.2
             Send2Trash==1.8.2
@@ -4373,23 +4413,23 @@ jupyter_contrib_nbextensions==0.7.0
         packaging==23.2
         tornado==6.4
         traitlets==5.14.1
-      jupyterlab_server==2.25.2
+      jupyterlab_server==2.25.3
         Babel==2.14.0
         Jinja2==3.1.3
           MarkupSafe==2.1.5
-        json5==0.9.14
+        json5==0.9.17
         jsonschema==4.21.1
           attrs==23.2.0
           jsonschema-specifications==2023.12.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
-          rpds-py==0.17.1
+            rpds-py==0.18.0
+          rpds-py==0.18.0
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -4418,16 +4458,16 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -4437,7 +4477,7 @@ jupyter_contrib_nbextensions==0.7.0
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -4475,11 +4515,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -4493,11 +4533,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -4516,11 +4556,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -4528,7 +4568,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -4543,10 +4583,10 @@ jupyter_contrib_nbextensions==0.7.0
           certifi==2024.2.2
           charset-normalizer==3.3.2
           idna==3.6
-          urllib3==2.2.0
-      notebook_shim==0.2.3
+          urllib3==2.2.1
+      notebook_shim==0.2.4
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -4575,16 +4615,16 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -4594,7 +4634,7 @@ jupyter_contrib_nbextensions==0.7.0
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -4632,11 +4672,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -4650,11 +4690,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -4673,11 +4713,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -4685,7 +4725,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -4700,7 +4740,7 @@ jupyter_contrib_nbextensions==0.7.0
     tornado==6.4
     traitlets==5.14.1
   lxml==5.1.0
-  nbconvert==7.14.2
+  nbconvert==7.16.1
     beautifulsoup4==4.12.3
       soupsieve==2.5
     bleach==6.1.0
@@ -4738,11 +4778,11 @@ jupyter_contrib_nbextensions==0.7.0
           jsonschema-specifications==2023.12.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
-          rpds-py==0.17.1
+            rpds-py==0.18.0
+          rpds-py==0.18.0
         jupyter_core==5.7.1
           platformdirs==4.2.0
           pywin32==306
@@ -4756,11 +4796,11 @@ jupyter_contrib_nbextensions==0.7.0
         jsonschema-specifications==2023.12.1
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
+            rpds-py==0.18.0
         referencing==0.33.0
           attrs==23.2.0
-          rpds-py==0.17.1
-        rpds-py==0.17.1
+          rpds-py==0.18.0
+        rpds-py==0.18.0
       jupyter_core==5.7.1
         platformdirs==4.2.0
         pywin32==306
@@ -4772,9 +4812,9 @@ jupyter_contrib_nbextensions==0.7.0
     tinycss2==1.2.1
       webencodings==0.5.1
     traitlets==5.14.1
-  notebook==7.0.7
+  notebook==7.1.0
     jupyter_server==2.12.5
-      anyio==4.2.0
+      anyio==4.3.0
         idna==3.6
         sniffio==1.3.0
       argon2-cffi==23.1.0
@@ -4803,16 +4843,16 @@ jupyter_contrib_nbextensions==0.7.0
           jsonschema-specifications==2023.12.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
-          rpds-py==0.17.1
+            rpds-py==0.18.0
+          rpds-py==0.18.0
         python-json-logger==2.0.7
         PyYAML==6.0.1
         referencing==0.33.0
           attrs==23.2.0
-          rpds-py==0.17.1
+          rpds-py==0.18.0
         rfc3339-validator==0.1.4
           six==1.16.0
         rfc3986-validator==0.1.1
@@ -4822,7 +4862,7 @@ jupyter_contrib_nbextensions==0.7.0
         terminado==0.18.0
           pywinpty==2.0.12
           tornado==6.4
-      nbconvert==7.14.2
+      nbconvert==7.16.1
         beautifulsoup4==4.12.3
           soupsieve==2.5
         bleach==6.1.0
@@ -4860,11 +4900,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -4878,11 +4918,11 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_core==5.7.1
             platformdirs==4.2.0
             pywin32==306
@@ -4901,11 +4941,11 @@ jupyter_contrib_nbextensions==0.7.0
           jsonschema-specifications==2023.12.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
-          rpds-py==0.17.1
+            rpds-py==0.18.0
+          rpds-py==0.18.0
         jupyter_core==5.7.1
           platformdirs==4.2.0
           pywin32==306
@@ -4913,7 +4953,7 @@ jupyter_contrib_nbextensions==0.7.0
         traitlets==5.14.1
       overrides==7.7.0
       packaging==23.2
-      prometheus-client==0.19.0
+      prometheus_client==0.20.0
       pywinpty==2.0.12
       pyzmq==25.1.2
       Send2Trash==1.8.2
@@ -4923,13 +4963,23 @@ jupyter_contrib_nbextensions==0.7.0
       tornado==6.4
       traitlets==5.14.1
       websocket-client==1.7.0
-    jupyterlab==4.0.12
+    jupyterlab==4.1.2
       async-lru==2.0.4
-      ipykernel==6.29.0
+      httpx==0.27.0
+        anyio==4.3.0
+          idna==3.6
+          sniffio==1.3.0
+        certifi==2024.2.2
+        httpcore==1.0.4
+          certifi==2024.2.2
+          h11==0.14.0
+        idna==3.6
+        sniffio==1.3.0
+      ipykernel==6.29.2
         comm==0.2.1
           traitlets==5.14.1
         debugpy==1.8.1
-        ipython==8.21.0
+        ipython==8.22.1
           colorama==0.4.6
           decorator==5.1.1
           jedi==0.19.1
@@ -4975,7 +5025,7 @@ jupyter_contrib_nbextensions==0.7.0
         traitlets==5.14.1
       jupyter-lsp==2.2.2
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -5004,16 +5054,16 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -5023,7 +5073,7 @@ jupyter_contrib_nbextensions==0.7.0
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -5061,11 +5111,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -5079,11 +5129,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -5102,11 +5152,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -5114,7 +5164,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -5125,7 +5175,7 @@ jupyter_contrib_nbextensions==0.7.0
           traitlets==5.14.1
           websocket-client==1.7.0
       jupyter_server==2.12.5
-        anyio==4.2.0
+        anyio==4.3.0
           idna==3.6
           sniffio==1.3.0
         argon2-cffi==23.1.0
@@ -5154,16 +5204,16 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           python-json-logger==2.0.7
           PyYAML==6.0.1
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
+            rpds-py==0.18.0
           rfc3339-validator==0.1.4
             six==1.16.0
           rfc3986-validator==0.1.1
@@ -5173,7 +5223,7 @@ jupyter_contrib_nbextensions==0.7.0
           terminado==0.18.0
             pywinpty==2.0.12
             tornado==6.4
-        nbconvert==7.14.2
+        nbconvert==7.16.1
           beautifulsoup4==4.12.3
             soupsieve==2.5
           bleach==6.1.0
@@ -5211,11 +5261,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -5229,11 +5279,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -5252,11 +5302,11 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_core==5.7.1
             platformdirs==4.2.0
             pywin32==306
@@ -5264,7 +5314,7 @@ jupyter_contrib_nbextensions==0.7.0
           traitlets==5.14.1
         overrides==7.7.0
         packaging==23.2
-        prometheus-client==0.19.0
+        prometheus_client==0.20.0
         pywinpty==2.0.12
         pyzmq==25.1.2
         Send2Trash==1.8.2
@@ -5274,23 +5324,23 @@ jupyter_contrib_nbextensions==0.7.0
         tornado==6.4
         traitlets==5.14.1
         websocket-client==1.7.0
-      jupyterlab_server==2.25.2
+      jupyterlab_server==2.25.3
         Babel==2.14.0
         Jinja2==3.1.3
           MarkupSafe==2.1.5
-        json5==0.9.14
+        json5==0.9.17
         jsonschema==4.21.1
           attrs==23.2.0
           jsonschema-specifications==2023.12.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
-          rpds-py==0.17.1
+            rpds-py==0.18.0
+          rpds-py==0.18.0
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -5319,16 +5369,16 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -5338,7 +5388,7 @@ jupyter_contrib_nbextensions==0.7.0
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -5376,11 +5426,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -5394,11 +5444,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -5417,11 +5467,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -5429,7 +5479,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -5444,10 +5494,10 @@ jupyter_contrib_nbextensions==0.7.0
           certifi==2024.2.2
           charset-normalizer==3.3.2
           idna==3.6
-          urllib3==2.2.0
-      notebook_shim==0.2.3
+          urllib3==2.2.1
+      notebook_shim==0.2.4
         jupyter_server==2.12.5
-          anyio==4.2.0
+          anyio==4.3.0
             idna==3.6
             sniffio==1.3.0
           argon2-cffi==23.1.0
@@ -5476,16 +5526,16 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             python-json-logger==2.0.7
             PyYAML==6.0.1
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
+              rpds-py==0.18.0
             rfc3339-validator==0.1.4
               six==1.16.0
             rfc3986-validator==0.1.1
@@ -5495,7 +5545,7 @@ jupyter_contrib_nbextensions==0.7.0
             terminado==0.18.0
               pywinpty==2.0.12
               tornado==6.4
-          nbconvert==7.14.2
+          nbconvert==7.16.1
             beautifulsoup4==4.12.3
               soupsieve==2.5
             bleach==6.1.0
@@ -5533,11 +5583,11 @@ jupyter_contrib_nbextensions==0.7.0
                   jsonschema-specifications==2023.12.1
                     referencing==0.33.0
                       attrs==23.2.0
-                      rpds-py==0.17.1
+                      rpds-py==0.18.0
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
-                  rpds-py==0.17.1
+                    rpds-py==0.18.0
+                  rpds-py==0.18.0
                 jupyter_core==5.7.1
                   platformdirs==4.2.0
                   pywin32==306
@@ -5551,11 +5601,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -5574,11 +5624,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -5586,7 +5636,7 @@ jupyter_contrib_nbextensions==0.7.0
             traitlets==5.14.1
           overrides==7.7.0
           packaging==23.2
-          prometheus-client==0.19.0
+          prometheus_client==0.20.0
           pywinpty==2.0.12
           pyzmq==25.1.2
           Send2Trash==1.8.2
@@ -5599,23 +5649,23 @@ jupyter_contrib_nbextensions==0.7.0
       packaging==23.2
       tornado==6.4
       traitlets==5.14.1
-    jupyterlab_server==2.25.2
+    jupyterlab_server==2.25.3
       Babel==2.14.0
       Jinja2==3.1.3
         MarkupSafe==2.1.5
-      json5==0.9.14
+      json5==0.9.17
       jsonschema==4.21.1
         attrs==23.2.0
         jsonschema-specifications==2023.12.1
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
+            rpds-py==0.18.0
         referencing==0.33.0
           attrs==23.2.0
-          rpds-py==0.17.1
-        rpds-py==0.17.1
+          rpds-py==0.18.0
+        rpds-py==0.18.0
       jupyter_server==2.12.5
-        anyio==4.2.0
+        anyio==4.3.0
           idna==3.6
           sniffio==1.3.0
         argon2-cffi==23.1.0
@@ -5644,16 +5694,16 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           python-json-logger==2.0.7
           PyYAML==6.0.1
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
+            rpds-py==0.18.0
           rfc3339-validator==0.1.4
             six==1.16.0
           rfc3986-validator==0.1.1
@@ -5663,7 +5713,7 @@ jupyter_contrib_nbextensions==0.7.0
           terminado==0.18.0
             pywinpty==2.0.12
             tornado==6.4
-        nbconvert==7.14.2
+        nbconvert==7.16.1
           beautifulsoup4==4.12.3
             soupsieve==2.5
           bleach==6.1.0
@@ -5701,11 +5751,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -5719,11 +5769,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -5742,11 +5792,11 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_core==5.7.1
             platformdirs==4.2.0
             pywin32==306
@@ -5754,7 +5804,7 @@ jupyter_contrib_nbextensions==0.7.0
           traitlets==5.14.1
         overrides==7.7.0
         packaging==23.2
-        prometheus-client==0.19.0
+        prometheus_client==0.20.0
         pywinpty==2.0.12
         pyzmq==25.1.2
         Send2Trash==1.8.2
@@ -5769,10 +5819,10 @@ jupyter_contrib_nbextensions==0.7.0
         certifi==2024.2.2
         charset-normalizer==3.3.2
         idna==3.6
-        urllib3==2.2.0
-    notebook_shim==0.2.3
+        urllib3==2.2.1
+    notebook_shim==0.2.4
       jupyter_server==2.12.5
-        anyio==4.2.0
+        anyio==4.3.0
           idna==3.6
           sniffio==1.3.0
         argon2-cffi==23.1.0
@@ -5801,16 +5851,16 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           python-json-logger==2.0.7
           PyYAML==6.0.1
           referencing==0.33.0
             attrs==23.2.0
-            rpds-py==0.17.1
+            rpds-py==0.18.0
           rfc3339-validator==0.1.4
             six==1.16.0
           rfc3986-validator==0.1.1
@@ -5820,7 +5870,7 @@ jupyter_contrib_nbextensions==0.7.0
           terminado==0.18.0
             pywinpty==2.0.12
             tornado==6.4
-        nbconvert==7.14.2
+        nbconvert==7.16.1
           beautifulsoup4==4.12.3
             soupsieve==2.5
           bleach==6.1.0
@@ -5858,11 +5908,11 @@ jupyter_contrib_nbextensions==0.7.0
                 jsonschema-specifications==2023.12.1
                   referencing==0.33.0
                     attrs==23.2.0
-                    rpds-py==0.17.1
+                    rpds-py==0.18.0
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
-                rpds-py==0.17.1
+                  rpds-py==0.18.0
+                rpds-py==0.18.0
               jupyter_core==5.7.1
                 platformdirs==4.2.0
                 pywin32==306
@@ -5876,11 +5926,11 @@ jupyter_contrib_nbextensions==0.7.0
               jsonschema-specifications==2023.12.1
                 referencing==0.33.0
                   attrs==23.2.0
-                  rpds-py==0.17.1
+                  rpds-py==0.18.0
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
-              rpds-py==0.17.1
+                rpds-py==0.18.0
+              rpds-py==0.18.0
             jupyter_core==5.7.1
               platformdirs==4.2.0
               pywin32==306
@@ -5899,11 +5949,11 @@ jupyter_contrib_nbextensions==0.7.0
             jsonschema-specifications==2023.12.1
               referencing==0.33.0
                 attrs==23.2.0
-                rpds-py==0.17.1
+                rpds-py==0.18.0
             referencing==0.33.0
               attrs==23.2.0
-              rpds-py==0.17.1
-            rpds-py==0.17.1
+              rpds-py==0.18.0
+            rpds-py==0.18.0
           jupyter_core==5.7.1
             platformdirs==4.2.0
             pywin32==306
@@ -5911,7 +5961,7 @@ jupyter_contrib_nbextensions==0.7.0
           traitlets==5.14.1
         overrides==7.7.0
         packaging==23.2
-        prometheus-client==0.19.0
+        prometheus_client==0.20.0
         pywinpty==2.0.12
         pyzmq==25.1.2
         Send2Trash==1.8.2
@@ -5924,10 +5974,9 @@ jupyter_contrib_nbextensions==0.7.0
     tornado==6.4
   tornado==6.4
   traitlets==5.14.1
-pip==23.3.2
-pipdeptree==2.13.2
+pip==22.3.1
+pipdeptree==2.14.0
 uri-template==1.3.0
-uv==0.1.2
 webcolors==1.13
 yt-dlp==2023.12.30
   Brotli==1.1.0
@@ -5938,6 +5987,6 @@ yt-dlp==2023.12.30
     certifi==2024.2.2
     charset-normalizer==3.3.2
     idna==3.6
-    urllib3==2.2.0
-  urllib3==2.2.0
+    urllib3==2.2.1
+  urllib3==2.2.1
   websockets==12.0
