@@ -15,3 +15,13 @@ You dont need download a media (audio/video) just fork the repo, play with Jupyt
 We can create a Playlist from the Community using GitHub
 
 Happy coding! 💖🐍
+
+## Share
+
+- Twitter / X
+
+```txt
+🎧 Check out this amazing song: 🐍 https://youtu.be/V09fr_IaYis 
+
+#ShareTheSong
+```
