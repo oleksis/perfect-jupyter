@@ -1,5 +1,7 @@
 # Perfect
 
+![Van Halen-Hot_For_Teacher-Google-Colab-Screenshot 2024-03-03 083733](https://github.com/oleksis/perfect-jupyter/assets/44526468/c0879b5d-2774-4b2c-9df3-6c47d96874b9)
+
 Is about loving **Free and open-source software** ([FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)) Projects like [Python](https://www.python.org/) 💖🐍
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oleksis/perfect-jupyter/blob/main/Perfect.ipynb)
