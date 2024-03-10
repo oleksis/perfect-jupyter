@@ -68,3 +68,39 @@ Replace `<branch-name>` with the name of the branch you want to search in. This 
 ➜ uv pip install -r requirements.txt
 ➜ uv pip sync requirements.txt
 ```
+
+### Git search
+
+You can use the `awk` command in combination with `git log` to extract the commit hash, author, date, and YouTube song ID. Here's an example command:
+
+```bash
+git log -S 'Bill Medley' | awk '/commit/ {print "commit: "$2} /Author:/ {print "Author: "$2" "$3" "$4} /Date:/ {print "Date: "$3" "$4" "$5" "$6" "$7} /^    Add/ {split($0,a,"_"); print "Song: "a[2]}'
+```
+
+This command will output the desired information in the format you specified. Please replace `'Bill Medley'` with the actual string you want to search for in your Git log. Note that this command assumes that the YouTube song ID is always after the last underscore (`_`) in the commit message. If the format of your commit message changes, you may need to adjust the command accordingly.
+
+#### Powershell
+
+Sure, here's how you can achieve the same result using PowerShell:
+
+```pwsh
+git log -S '[download] Destination: ' | ForEach-Object {
+    if ($_ -match 'commit (.*)') { "commit: $($matches[1])" }
+    elseif ($_ -match 'Author: (.*)') { "Author: $($matches[1])" }
+    elseif ($_ -match 'Date:   (.*)') { "Date: $($matches[1])" }
+    elseif ($_ -match 'Add (.*),') { $song = $_.Split('_')[-1]; "Song: $song" }
+}
+```
+
+This script will output the commit hash, author, date, and YouTube song ID in the format you specified. Please replace `'Bill Medley'` with the actual string you want to search for in your Git log. Note that this command assumes that the YouTube song ID is always after the last underscore (`_`) in the commit message. If the format of your commit message changes, you may need to adjust the command accordingly.
+
+```pwsh
+git log -S '[download] Destination: ' | ForEach-Object {
+    switch -Regex ($_) {
+        'commit (.*)' { "commit: $($matches[1])" }
+        'Author: (.*)' { "Author: $($matches[1])" }
+        'Date:   (.*)' { "Date: $($matches[1])" }
+        'Add (.*),' { $song = $_.Split('_')[-1]; "Song: $song" }
+    }
+}
+```
