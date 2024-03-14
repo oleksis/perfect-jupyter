@@ -169,3 +169,6 @@ cython_debug/
 *.ogg
 *.aac
 *.wav
+
+# Logs and Outputs
+output.txt
