@@ -27,3 +27,9 @@ Happy coding! 💖🐍
 
 #ShareTheSong
 ```
+
+## Playlist
+
+Youtube
+
+1. [🎵](https://www.youtube.com/playlist?list=PLKOe5c5VIUYVpgRImJCNZt_qETNqDIyZ4)
